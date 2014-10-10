@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster|Droid+Serif|Francois+One);
+
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Droid Serif', serif;
+font-family: 'Francois One', sans-serif;
+*/
+
+body{
+	margin: 0;
+}
+
+
+body nav li{
+	background-color: #4B4;
+	color: white;
+	font-family: 'Francois One', sans-serif;
+	font-size: 1.5em;
+	list-style: none;
+	text-align: center;
+	display: block;
+}
+
+
+.cabecera{
+	width: 100%;
+	height: 150px;
+	background: #7AD;
+	margin-bottom: 2px;
+}
+.cabecera .titulo{
+	font-family: 'Lobster', cursive;
+	font-size: 2.2em;
+	color: white;
+	padding-left: .3em;
+	padding-bottom: .2em;
+}
+
+
+
+
+
+.emergencia div{
+	background-color: red;
+}
+.emergencia div h2{
+	font-family: 'Droid Serif', serif;
+	padding-left: .5em;
+	color: white;
+}
+.emergencia .e0{
+	font-family: 'Francois One', sans-serif;
+	font-size: 4em;
+	text-align: center;
+}
+
+
+
+footer{
+	text-align: center;
+}
+footer a{
+	color: #CD6;
+	display: block;
+	font-family: 'Lobster', cursive;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: .5em 0em;
+}
+footer .fup{
+	height: 20px;
+	background-color: black;
+	border-bottom: 2px solid #777;
+}
+.footer{
+	background-color: #222;
+}
+.footer .oscartti{
+	background-color: white;
+	border-top: 25px solid black;
+}
+
+.galeria div h2 {
+	background-color: #D39;
+}
+.galeria h2{
+	font-family: 'Droid Serif', serif;
+	padding-left: .5em;
+	color: white;
+}
+
+.galeria .imgtitulo{
+	font-family: 'Francois One', sans-serif;
+	font-size: 1.2em;
+}
+
+.galeria .autor{
+	font-family: 'Francois One', sans-serif;
+	font-size: .95em;
+}
+
+.negocios a{
+	display: block;
+}
+.negocios div{
+	background-color: yellow;
+}
+.negocios div h2{
+	font-family: 'Droid Serif', serif;
+	padding-left: .5em;
+}
+
+.noticias{
+	font-family: 'Droid Serif', serif;
+
+}
+.noticias div h2{
+	color: white;
+	padding-left: .5em;
+	font-size: 1.3em;
+}
+.noticias div{
+	background-color: #59E;
+}
+.noticias h3{
+	font-family: 'Francois One', sans-serif;
+	font-size: 1.1em;
+	line-height: 1.1;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-left: .3em;
+}
+.noticias p{
+	font-size: 14px;
+	margin-top: .5em;
+	margin-bottom: 1.6em;
+	padding-left: .3em;
+	padding-top: 0;
+}
