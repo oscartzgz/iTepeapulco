@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8" />
 	<title>iTepeapulco</title>
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" href="../static/css/normalize.css">
+	<link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
 	<header class="cabecera">
@@ -12,72 +13,91 @@
 		</div>
 	</header>
 
-	<nav>
-		<li>Inicio</li>
-		<li>Noticias</li>
-		<li>Galeria</li>
-		<li>Negocios</li>
-		<li>#Emergencia</li>
-	</nav>
-
+	<nav id="menu">
+		<ul>
+			<li class="menuNoticias"><a href="#">Noticias</a></li>
+			<li class="menuGaleria"><a href="#">Galeria</a></li>
+			<li class="menuNegocios"><a href="#">Negocios</a></li>
+			<li class="menuEmergencia"><a href="#">#Emergencia</a></li>
+		</ul>
+		</nav>
 	<section class="noticias">
-		<div><h2>Noticias</h2></div>
+		<div class="contentTituloSeccion">
+			<h2 class="tituloSeccion">Noticias</h2>
+		</div>
 		<h3>Ven baja calidad en dependencias de Tepeapulco</h3>
+		<span class="fechaNoticia">27 Agosto 2014</span>
+		</div>
 		<p>Peor calificación, de 0, la obtuvo la Instancia de la Juventud, revela documento</p>
 
 		<h3>Niegan Fondo Metropolitano para Tepeapulco</h3>
+		<span class="fechaNoticia">27 Agosto 2014</span>
 		<p>Falta de recurso frena proyectos en demarcación, asegura director de Planeación municipal</p>
 
 		<h3>Alistan un cartel de toros en Tepeapulco</h3>
+		<span class="fechaNoticia">27 Agosto 2014</span>
 		<p>La empresa Arte + Casta Innovación Taurina S.A. de C.V. hará su presentación en sociedad el próximo 16 de septiembre en la plaza de toros de San Marcos de Tepeapulco</p>
 
-		<div class="nmas"></div>
+		<div class="noticiasMas">
+			<div class="noticiasMasH"></div>
+			<div class="noticiasMasV"></div>
+		</div>
 	</section>
 
 	<section class="galeria">
-		<div><h2>Galeria</h2></div>
-		<div>
-			<img src="galeria/1.jpg" width="95%" height="200px">
-			<div class="caja">
-				<p class="imgtitulo">Descripcion de la imagen</p>
-				<p class="autor">El mero charro</p>
-			</div>
+		<div class="contentTituloSeccion">
+			<h2 class="tituloSeccion">Galeria</h2>
 		</div>
-		<div>
-			<img src="galeria/2.jpg" width="95%" height="200px">
-			<div class="caja">
-				<p class="imgtitulo">descripcion de la imagen</p>
-				<p class="autor">Oscar Tellez G</p
+		<figure class="galeriaImageContainer">
+			<!--<img src="../static/images/img01.jpg" width="95%" height="200px">-->
+			<div class="galeriaImageDescription">
+				<p class="imgTitulo">Un charo muy Feliz</p>
+				<p class="autor">Crossvera</p>
 			</div>
-			>
-		</div>
+		</figure>
+		<figure class="galeriaImageContainer">
+			<!--<img src="../static/images/img01.jpg" width="95%" height="200px">-->
+			<div class="galeriaImageDescription">
+				<p class="imgTitulo">Torre de electricidad y arboles</p>
+				<p class="autor">Crossvera</p>
+			</div>
+		</figure>
 
-		<div class="gmas"></div>
+		<div class="galeriaMas">
+			<div class="galeriaMasH"></div>
+			<div class="galeriaMasV"></div>
+		</div>
 	</section>
 
 	<section class="negocios">
-		<div>
-			<h2>Negocios</h2>
+		<div class="contentTituloSeccion">
+			<h2 class="tituloSeccion">Negocios</h2>
 		</div>
 		<a href="productos-y-servicios.html">Productos y Servicios</a>
 		<a href="compra-y-venta.html">Compra y Venta</a>
 		<a href="empleo.html">Empleo</a>
 
-		<div class="nemas"></div>
+		<div class="negociosMas">
+			<div class="negociosMasH"></div>
+			<div class="negociosMasV"></div>
+		</div>
 	</section>
 
 	<section class="emergencia">
-		<div>
-			<h2>#Emergencia</h2>
+		<div class="contentTituloSeccion">
+			<h2 class="tituloSeccion">#Emergencia</h2>
 		</div>
-		<h3 class="e0">066</h3>
-		<h2 class="e0des">Emergencias</h2>
-		<h3 class="e1">058</h3>
-		<h2 class="e1des">Bomberos</h2>
-		<h3 class="e2">068</h3>
-		<h2 class="e2des">Cruz Roja</h2>
+		<h3 class="emergenciaNumero">066</h3>
+		<h2 class="emergenciaServicio">Emergencias</h2>
+		<h3 class="emergenciaNumero">058</h3>
+		<h2 class="emergenciaServicio">Bomberos</h2>
+		<h3 class="emergenciaNumero">068</h3>
+		<h2 class="emergenciaServicio">Cruz Roja</h2>
 
-		<div class="emas"></div>
+		<div class="emergenciaMas">
+			<div class="emergenciaMasH"></div>
+			<div class="emergenciaMasV"></div>
+		</div>
 	</section>
 
 	<footer>
