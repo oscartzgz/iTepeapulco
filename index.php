@@ -1,1 +1,3 @@
-<?php include_once "template/index.html"; ?>
+<?php
+	include_once($_SERVER["DOCUMENT_ROOT"] . "static/index.php");
+?>
