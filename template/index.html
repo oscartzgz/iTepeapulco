@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<title>iTepeapulco</title>
 	<link rel="stylesheet" href="../static/css/normalize.css">
 	<link rel="stylesheet" href="../static/css/style.css">
@@ -13,40 +14,50 @@
 		</div>
 	</header>
 
-	<nav id="menu">
+	<nav class="menu">
 		<ul>
-			<li class="menuNoticias"><a href="#">Noticias</a></li>
-			<li class="menuGaleria"><a href="#">Galeria</a></li>
-			<li class="menuNegocios"><a href="#">Negocios</a></li>
-			<li class="menuEmergencia"><a href="#">#Emergencia</a></li>
+			<li class="menuNoticias"><a href="noticias.html">Noticias</a></li>
+			<li class="menuGaleria"><a href="galeria.html">Galeria</a></li>
+			<li class="menuNegocios"><a href="negocios.html">Negocios</a></li>
+			<li class="menuEmergencia"><a href="numeros-de-emergencia.html">#Emergencia</a></li>
 		</ul>
 		</nav>
 	<section class="noticias">
-		<div class="contentTituloSeccion">
-			<h2 class="tituloSeccion">Noticias</h2>
+		<div class="contenedor-seccion">
+			<h2 class="seccion">Noticias</h2>
 		</div>
-		<h3>Ven baja calidad en dependencias de Tepeapulco</h3>
-		<span class="fechaNoticia">27 Agosto 2014</span>
+		<div class="noticias-contenido">
+			<article>
+				<img src="../static/images/noticia.jpg">
+				<h3><a href="#">Supera Apan en rezago y pobreza a Tepeapulco</a></h3>
+				<span class="fechaNoticia">18 Septiembre 2014</span>
+				<p>Un comparativo del Consejo Nacional de Evaluación de la Política de Desarrollo Social (Coneval) entre Apan y Tepeapulco, los municipios más poblados y económicamente activos del Altiplano, evidencia que el primero registra más pobreza y rezagos en desarrollo humano.</p>
+			</article>
+
+			<article>
+				<h3><a href="#">Niegan Fondo Metropolitano para Tepeapulco</a></h3>
+				<span class="fechaNoticia">27 Agosto 2014</span>
+				<p>Falta de recurso frena proyectos en demarcación, asegura director de Planeación municipal</p>		
+			</article>
+
+			<article>
+				<h3><a href="#">Alistan un cartel de toros en Tepeapulco</a></h3>
+				<span class="fechaNoticia">27 Agosto 2014</span>
+				<p>La empresa Arte + Casta Innovación Taurina S.A. de C.V. hará su presentación en sociedad el próximo 16 de septiembre en la plaza de toros de San Marcos de Tepeapulco</p>
+			</article>
 		</div>
-		<p>Peor calificación, de 0, la obtuvo la Instancia de la Juventud, revela documento</p>
-
-		<h3>Niegan Fondo Metropolitano para Tepeapulco</h3>
-		<span class="fechaNoticia">27 Agosto 2014</span>
-		<p>Falta de recurso frena proyectos en demarcación, asegura director de Planeación municipal</p>
-
-		<h3>Alistan un cartel de toros en Tepeapulco</h3>
-		<span class="fechaNoticia">27 Agosto 2014</span>
-		<p>La empresa Arte + Casta Innovación Taurina S.A. de C.V. hará su presentación en sociedad el próximo 16 de septiembre en la plaza de toros de San Marcos de Tepeapulco</p>
-
+		<div>
+		<a href="noticias.html">
 		<div class="noticiasMas">
 			<div class="noticiasMasH"></div>
 			<div class="noticiasMasV"></div>
 		</div>
+		</a>
 	</section>
 
 	<section class="galeria">
-		<div class="contentTituloSeccion">
-			<h2 class="tituloSeccion">Galeria</h2>
+		<div class="contenedor-seccion">
+			<h2 class="seccion">Galeria</h2>
 		</div>
 		<figure class="galeriaImageContainer">
 			<!--<img src="../static/images/img01.jpg" width="95%" height="200px">-->
@@ -62,30 +73,32 @@
 				<p class="autor">Crossvera</p>
 			</div>
 		</figure>
-
+		<a href="galeria.html">
 		<div class="galeriaMas">
 			<div class="galeriaMasH"></div>
 			<div class="galeriaMasV"></div>
 		</div>
+		</a>
 	</section>
 
 	<section class="negocios">
-		<div class="contentTituloSeccion">
-			<h2 class="tituloSeccion">Negocios</h2>
+		<div class="contenedor-seccion">
+			<h2 class="seccion">Negocios</h2>
 		</div>
 		<a href="productos-y-servicios.html">Productos y Servicios</a>
 		<a href="compra-y-venta.html">Compra y Venta</a>
 		<a href="empleo.html">Empleo</a>
-
+		<a href="negocios.html">
 		<div class="negociosMas">
 			<div class="negociosMasH"></div>
 			<div class="negociosMasV"></div>
 		</div>
+		</a>
 	</section>
 
 	<section class="emergencia">
-		<div class="contentTituloSeccion">
-			<h2 class="tituloSeccion">#Emergencia</h2>
+		<div class="contenedor-seccion">
+			<h2 class="seccion">#Emergencia</h2>
 		</div>
 		<h3 class="emergenciaNumero">066</h3>
 		<h2 class="emergenciaServicio">Emergencias</h2>
@@ -94,10 +107,12 @@
 		<h3 class="emergenciaNumero">068</h3>
 		<h2 class="emergenciaServicio">Cruz Roja</h2>
 
+		<a href="numeros-de-emergencias.html">
 		<div class="emergenciaMas">
 			<div class="emergenciaMasH"></div>
 			<div class="emergenciaMasV"></div>
 		</div>
+		</a>
 	</section>
 
 	<footer>
